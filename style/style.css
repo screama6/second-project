@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif ;
+    font-weight: 400;
+    background-color: #1e1e1e;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+    margin: 0 ;
+    padding: 0;
+}
+
+.content-section {
+    box-sizing: border-box;
+    width: 360px;
+    margin: auto;
+}
+
+.content-section_theme_dark {
+    color: #FFF;
+    background-color: black;
+}
+
+.content-section_theme_bright {
+    color: #131313;
+    background-color: #FEE42A;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px 20px;
+    
+}
+
+.header__logo {
+    display: block;
+    width: 78px;
+}
+
+.header__logo-image {
+    width: 100%;
+}
+
+.header__menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+}
+
+.header__menu-link {
+    color:#fff ;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.header__menu-item-active .header__menu-link {
+    text-decoration: none;
+}
+
+.cover {
+    padding: 7px 24px 32px 20px;
+    background-image: url(/images/cover.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 95% auto;
+}
+
+.cover__title {
+    width: 100%;
+    color: #FFF;
+    font-family: 'EB Garamond', serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 1; 
+}
+.accent-span {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 20px 38px;
+    
+}
+
+.intro__heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    font-size: 16px;
+}
+
+.intro__title {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.intro__date {
+    color: #ccc;
+    font-size: 16px;
+    white-space: nowrap;
+    line-height: 1.2;
+}
+
+.intro__main-text {
+    display: flex;
+    flex-direction: column;
+    color: #F5F5F5;
+    font-size: 16px;
+    line-height: 1.35;
+    gap: 24px;
+}
+
+.reasons {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: #131313;
+}
+
+.content-section__subtitle {
+    font-family: EB Garamond;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.15;
+}
+
+.content-section__introduction {
+    font-size: 20px;
+    line-height: 1.35;
+}
+
+.content-section__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.35;
+
+}
+
+.content-section__list-accent {
+    font-weight: 700;
+
+}
+
+.how-to {
+    padding: 40px 20px 60px;
+}
+
+.footer {
+    padding: 20px;
+}
